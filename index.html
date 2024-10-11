@@ -106,7 +106,7 @@
             text: 'Main Button2'
         });
         Telegram.WebApp.MainButton.onClick(function () {
-            Telegram.WebApp.showAlert(Telegram.WebApp.initData)
+            console.log('我的信息是',Telegram.WebApp.initData);
             Telegram.WebApp.showAlert('Main Button was clicked')
         });	
         Telegram.WebApp.MainButton.show();
