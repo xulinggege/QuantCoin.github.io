@@ -103,9 +103,10 @@
 
         // Show main button
         Telegram.WebApp.MainButton.setParams({
-            text: 'Main Button'
+            text: 'Main Button2'
         });
         Telegram.WebApp.MainButton.onClick(function () {
+            Telegram.WebApp.showAlert(Telegram.WebApp.initData)
             Telegram.WebApp.showAlert('Main Button was clicked')
         });	
         Telegram.WebApp.MainButton.show();
